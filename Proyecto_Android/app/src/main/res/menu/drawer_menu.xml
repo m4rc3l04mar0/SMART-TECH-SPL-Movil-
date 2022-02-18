@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+        >
+
+    <item
+
+        android:title="Usuarios"
+        >
+        <menu>
+            <item
+                android:id="@+id/nav_NuevoUsuario"
+                android:title="Nuevo Usuario"
+                android:icon="@drawable/ic_person_add_black_24dp"
+
+                />
+            <item
+                android:id="@+id/nav_ListarUsuarios"
+                android:title="Listar Usuarios"
+                android:icon="@drawable/ic_view_list_black_24dp"
+
+                />
+            <item
+                android:id="@+id/nav_ModificarUsuarios"
+                android:title="Modificar Usuarios"
+                android:icon="@drawable/ic_edit_black_24dp"
+
+                />
+            <item
+                android:id="@+id/nav_EliminarUsuarios"
+                android:title="Eliminar Usuarios"
+                android:icon="@drawable/ic_delete_black_24dp"
+
+                />
+
+        </menu>
+    </item>
+    <item
+
+        android:title="Alimentos"
+        >
+        <menu>
+            <item
+                android:id="@+id/nav_NuevoAlimento"
+                android:title="Nuevo Alimento"
+                android:icon="@drawable/ic_add_black_24dp"
+
+                />
+            <item
+                android:id="@+id/nav_ListarAlimentos"
+                android:title="Listar Alimentos"
+                android:icon="@drawable/ic_view_list_black_24dp"
+                />
+            <item
+                android:id="@+id/nav_ModificarAlimentos"
+                android:title="Modificar Alimentos"
+                android:icon="@drawable/ic_edit_black_24dp"
+                />
+
+
+        </menu>
+    </item>
+    <item
+
+        android:title="Terneras"
+        >
+        <menu>
+            <item
+                android:id="@+id/nav_ConsumodeAlimentos"
+                android:title="Consumo de Alimentos"
+                android:icon="@drawable/ic_add_black_24dp"
+                />
+            <item
+                android:id="@+id/nav_GananciadePeso"
+                android:title="Ganancia de Peso"
+                android:icon="@drawable/ic_add_black_24dp"
+
+                />
+        </menu>
+    </item>
+    <item
+
+        android:title="Informes"
+        >
+        <menu>
+            <item
+                android:id="@+id/nav_EventosClinicos"
+                android:title="Eventos Clinicos"
+                android:icon="@drawable/doctor"
+                />
+
+        </menu>
+    </item>
+    <item
+
+        android:title="Exit"
+        >
+        <menu>
+            <item
+                android:id="@+id/nav_Exit"
+                android:title="Exit"
+                android:icon="@drawable/logout"
+                />
+
+        </menu>
+    </item>
+
+
+
+
+</menu>

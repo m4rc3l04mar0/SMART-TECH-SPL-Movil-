@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="perfil">
+        <item>ENCARGADO</item>
+        <item>PERSONAL</item>
+    </string-array>
+
+    <string-array name="tipounidad">
+        <item>KG</item>
+        <item>L</item>
+    </string-array>
+
+    <string-array name="tiporegistro">
+        <item>SEMANAL</item>
+        <item>QUINQUENAL</item>
+    </string-array>
+
+
+</resources>
